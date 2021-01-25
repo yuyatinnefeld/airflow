@@ -51,9 +51,14 @@ mkdir dags
 ```
 
 ### 5. create init db
+```bash
 airflow db init
+```
 
-(if the db need reset => airflow db reset)
+if the db need reset:
+```bash
+airflow db reset
+```
 
 ### 6. these files were created
 /airflow.cfg
