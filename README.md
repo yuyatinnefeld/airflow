@@ -61,9 +61,11 @@ airflow db reset
 ```
 
 ### 6. these files were created
+```bash
 /airflow.cfg
 /unitests.cfg
-/airflow.db #SQLite
+/airflow.db
+```
 
 ### 7. create super user
 
