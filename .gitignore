@@ -4,6 +4,10 @@ configuration/
 .conf
 conf/
 
+# Used for data
+data/
+.data
+
 # Used for Sample/JustIdeas
 .sample
 sample/

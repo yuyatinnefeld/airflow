@@ -63,7 +63,7 @@ t4 = PythonOperator(
     python_callable=write_sample3,
     dag=dag,
 )
-# TODO: the dag is successfully located in the airflow but the program does not execute. 
+
 
 print('run: t1 >> t2 >> t3 >> t4')
 t1 >> t2 >> t3 >> t4
