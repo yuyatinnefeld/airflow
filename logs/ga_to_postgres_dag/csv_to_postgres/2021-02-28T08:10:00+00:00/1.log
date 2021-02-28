@@ -1,0 +1,23 @@
+[2021-02-28 09:18:05,085] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: ga_to_postgres_dag.csv_to_postgres 2021-02-28T08:10:00+00:00 [queued]>
+[2021-02-28 09:18:05,145] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: ga_to_postgres_dag.csv_to_postgres 2021-02-28T08:10:00+00:00 [queued]>
+[2021-02-28 09:18:05,145] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-28 09:18:05,145] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-02-28 09:18:05,153] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-28 09:18:05,174] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): csv_to_postgres> on 2021-02-28T08:10:00+00:00
+[2021-02-28 09:18:05,178] {standard_task_runner.py:52} INFO - Started process 35253 to run task
+[2021-02-28 09:18:05,186] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'ga_to_postgres_dag', 'csv_to_postgres', '2021-02-28T08:10:00+00:00', '--job-id', '19', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ga_to_postgres_dag.py', '--cfg-path', '/var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T/tmpr6jj2sxf', '--error-file', '/var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T/tmpjlcuucg8']
+[2021-02-28 09:18:05,188] {standard_task_runner.py:77} INFO - Job 19: Subtask csv_to_postgres
+[2021-02-28 09:18:05,234] {logging_mixin.py:104} INFO - Running <TaskInstance: ga_to_postgres_dag.csv_to_postgres 2021-02-28T08:10:00+00:00 [running]> on host 120.0.168.192.in-addr.arpa
+[2021-02-28 09:18:05,275] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=ga_to_postgres_dag
+AIRFLOW_CTX_TASK_ID=csv_to_postgres
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-28T08:10:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-02-28T08:10:00+00:00
+[2021-02-28 09:18:05,276] {logging_mixin.py:104} INFO - csv to pg
+[2021-02-28 09:18:05,277] {python.py:118} INFO - Done. Returned value was: None
+[2021-02-28 09:18:05,284] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=ga_to_postgres_dag, task_id=csv_to_postgres, execution_date=20210228T081000, start_date=20210228T081805, end_date=20210228T081805
+[2021-02-28 09:18:05,295] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-02-28 09:18:05,323] {local_task_job.py:146} INFO - Task exited with return code 0

@@ -1,0 +1,49 @@
+[2021-02-28 09:11:33,409] {scheduler_job.py:182} INFO - Started process (PID=34657) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:11:33,409] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-28 09:11:33,410] {logging_mixin.py:104} INFO - [2021-02-28 09:11:33,410] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:11:33,418] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:11:33,442] {logging_mixin.py:104} INFO - [2021-02-28 09:11:33,442] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:11:33,448] {logging_mixin.py:104} INFO - [2021-02-28 09:11:33,448] {dag.py:2273} INFO - Setting next_dagrun for example_xcom to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:11:33,452] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.043 seconds
+[2021-02-28 09:12:12,501] {scheduler_job.py:182} INFO - Started process (PID=34760) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:12:12,503] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-28 09:12:12,503] {logging_mixin.py:104} INFO - [2021-02-28 09:12:12,503] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:12:12,511] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:12:12,534] {logging_mixin.py:104} INFO - [2021-02-28 09:12:12,534] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:12:12,540] {logging_mixin.py:104} INFO - [2021-02-28 09:12:12,540] {dag.py:2273} INFO - Setting next_dagrun for example_xcom to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:12:12,544] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.044 seconds
+[2021-02-28 09:13:00,644] {scheduler_job.py:182} INFO - Started process (PID=34914) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:13:00,646] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-28 09:13:00,647] {logging_mixin.py:104} INFO - [2021-02-28 09:13:00,646] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:13:00,653] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:13:00,675] {logging_mixin.py:104} INFO - [2021-02-28 09:13:00,675] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:13:00,680] {logging_mixin.py:104} INFO - [2021-02-28 09:13:00,680] {dag.py:2273} INFO - Setting next_dagrun for example_xcom to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:13:00,684] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.041 seconds
+[2021-02-28 09:13:44,856] {scheduler_job.py:182} INFO - Started process (PID=34959) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:13:44,856] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-28 09:13:44,856] {logging_mixin.py:104} INFO - [2021-02-28 09:13:44,856] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:13:44,861] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:13:44,887] {logging_mixin.py:104} INFO - [2021-02-28 09:13:44,887] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:13:44,892] {logging_mixin.py:104} INFO - [2021-02-28 09:13:44,892] {dag.py:2273} INFO - Setting next_dagrun for example_xcom to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:13:44,896] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.041 seconds
+[2021-02-28 09:14:28,587] {scheduler_job.py:182} INFO - Started process (PID=35012) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:14:28,589] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-28 09:14:28,590] {logging_mixin.py:104} INFO - [2021-02-28 09:14:28,590] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:14:28,599] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:14:28,621] {logging_mixin.py:104} INFO - [2021-02-28 09:14:28,621] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:14:28,626] {logging_mixin.py:104} INFO - [2021-02-28 09:14:28,626] {dag.py:2273} INFO - Setting next_dagrun for example_xcom to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:14:28,630] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.043 seconds
+[2021-02-28 09:15:18,559] {scheduler_job.py:182} INFO - Started process (PID=35105) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:15:18,560] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-28 09:15:18,560] {logging_mixin.py:104} INFO - [2021-02-28 09:15:18,560] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:15:18,570] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:15:18,596] {logging_mixin.py:104} INFO - [2021-02-28 09:15:18,596] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:15:18,603] {logging_mixin.py:104} INFO - [2021-02-28 09:15:18,603] {dag.py:2273} INFO - Setting next_dagrun for example_xcom to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:15:18,608] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.049 seconds
+[2021-02-28 09:16:08,171] {scheduler_job.py:182} INFO - Started process (PID=35153) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:16:08,171] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-02-28 09:16:08,172] {logging_mixin.py:104} INFO - [2021-02-28 09:16:08,172] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:16:08,180] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-02-28 09:16:08,202] {logging_mixin.py:104} INFO - [2021-02-28 09:16:08,202] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:16:08,207] {logging_mixin.py:104} INFO - [2021-02-28 09:16:08,207] {dag.py:2273} INFO - Setting next_dagrun for example_xcom to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:16:08,211] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.040 seconds

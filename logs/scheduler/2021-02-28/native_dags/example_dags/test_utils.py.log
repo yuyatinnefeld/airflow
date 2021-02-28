@@ -1,0 +1,49 @@
+[2021-02-28 09:11:25,879] {scheduler_job.py:182} INFO - Started process (PID=34652) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:11:25,880] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-02-28 09:11:25,880] {logging_mixin.py:104} INFO - [2021-02-28 09:11:25,880] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:11:25,886] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:11:25,920] {logging_mixin.py:104} INFO - [2021-02-28 09:11:25,920] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:11:25,929] {logging_mixin.py:104} INFO - [2021-02-28 09:11:25,929] {dag.py:2273} INFO - Setting next_dagrun for test_utils to None
+[2021-02-28 09:11:25,936] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.058 seconds
+[2021-02-28 09:12:09,030] {scheduler_job.py:182} INFO - Started process (PID=34745) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:12:09,031] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-02-28 09:12:09,033] {logging_mixin.py:104} INFO - [2021-02-28 09:12:09,033] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:12:09,040] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:12:09,066] {logging_mixin.py:104} INFO - [2021-02-28 09:12:09,066] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:12:09,075] {logging_mixin.py:104} INFO - [2021-02-28 09:12:09,075] {dag.py:2273} INFO - Setting next_dagrun for test_utils to None
+[2021-02-28 09:12:09,081] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.052 seconds
+[2021-02-28 09:12:53,834] {scheduler_job.py:182} INFO - Started process (PID=34910) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:12:53,835] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-02-28 09:12:53,836] {logging_mixin.py:104} INFO - [2021-02-28 09:12:53,836] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:12:53,844] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:12:53,870] {logging_mixin.py:104} INFO - [2021-02-28 09:12:53,869] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:12:53,876] {logging_mixin.py:104} INFO - [2021-02-28 09:12:53,876] {dag.py:2273} INFO - Setting next_dagrun for test_utils to None
+[2021-02-28 09:12:53,881] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.048 seconds
+[2021-02-28 09:13:37,986] {scheduler_job.py:182} INFO - Started process (PID=34952) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:13:37,987] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-02-28 09:13:37,987] {logging_mixin.py:104} INFO - [2021-02-28 09:13:37,987] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:13:37,991] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:13:38,012] {logging_mixin.py:104} INFO - [2021-02-28 09:13:38,011] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:13:38,017] {logging_mixin.py:104} INFO - [2021-02-28 09:13:38,017] {dag.py:2273} INFO - Setting next_dagrun for test_utils to None
+[2021-02-28 09:13:38,021] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.035 seconds
+[2021-02-28 09:14:18,111] {scheduler_job.py:182} INFO - Started process (PID=35004) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:14:18,112] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-02-28 09:14:18,112] {logging_mixin.py:104} INFO - [2021-02-28 09:14:18,112] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:14:18,117] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:14:18,139] {logging_mixin.py:104} INFO - [2021-02-28 09:14:18,139] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:14:18,145] {logging_mixin.py:104} INFO - [2021-02-28 09:14:18,145] {dag.py:2273} INFO - Setting next_dagrun for test_utils to None
+[2021-02-28 09:14:18,151] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.040 seconds
+[2021-02-28 09:15:04,742] {scheduler_job.py:182} INFO - Started process (PID=35080) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:15:04,742] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-02-28 09:15:04,742] {logging_mixin.py:104} INFO - [2021-02-28 09:15:04,742] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:15:04,747] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:15:04,767] {logging_mixin.py:104} INFO - [2021-02-28 09:15:04,767] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:15:04,773] {logging_mixin.py:104} INFO - [2021-02-28 09:15:04,773] {dag.py:2273} INFO - Setting next_dagrun for test_utils to None
+[2021-02-28 09:15:04,777] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.036 seconds
+[2021-02-28 09:15:53,339] {scheduler_job.py:182} INFO - Started process (PID=35143) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:15:53,344] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-02-28 09:15:53,344] {logging_mixin.py:104} INFO - [2021-02-28 09:15:53,344] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:15:53,353] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-02-28 09:15:53,494] {logging_mixin.py:104} INFO - [2021-02-28 09:15:53,493] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:15:53,511] {logging_mixin.py:104} INFO - [2021-02-28 09:15:53,511] {dag.py:2273} INFO - Setting next_dagrun for test_utils to None
+[2021-02-28 09:15:53,520] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.182 seconds

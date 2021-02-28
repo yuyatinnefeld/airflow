@@ -1,0 +1,25 @@
+[2021-02-28 14:16:07,510] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: bitcoin_price_dag.is_api_available 2021-02-28T13:16:03.847952+00:00 [queued]>
+[2021-02-28 14:16:07,517] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: bitcoin_price_dag.is_api_available 2021-02-28T13:16:03.847952+00:00 [queued]>
+[2021-02-28 14:16:07,517] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-28 14:16:07,517] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-02-28 14:16:07,517] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-28 14:16:07,522] {taskinstance.py:1063} INFO - Executing <Task(HttpSensor): is_api_available> on 2021-02-28T13:16:03.847952+00:00
+[2021-02-28 14:16:07,524] {standard_task_runner.py:52} INFO - Started process 49746 to run task
+[2021-02-28 14:16:07,532] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'bitcoin_price_dag', 'is_api_available', '2021-02-28T13:16:03.847952+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/bitcoin_price_dag.py', '--cfg-path', '/var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T/tmpz0d50q9v', '--error-file', '/var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T/tmpwz4z2czr']
+[2021-02-28 14:16:07,533] {standard_task_runner.py:77} INFO - Job 3: Subtask is_api_available
+[2021-02-28 14:16:07,561] {logging_mixin.py:104} INFO - Running <TaskInstance: bitcoin_price_dag.is_api_available 2021-02-28T13:16:03.847952+00:00 [running]> on host 120.0.168.192.in-addr.arpa
+[2021-02-28 14:16:07,584] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=bitcoin_price_dag
+AIRFLOW_CTX_TASK_ID=is_api_available
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-28T13:16:03.847952+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-02-28T13:16:03.847952+00:00
+[2021-02-28 14:16:07,584] {http.py:102} INFO - Poking: ticker
+[2021-02-28 14:16:07,589] {base.py:65} INFO - Using connection to: id: bitcoin_api. Host: https://blockchain.info/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-02-28 14:16:07,592] {http.py:140} INFO - Sending 'GET' to url: https://blockchain.info/ticker
+[2021-02-28 14:16:07,746] {base.py:245} INFO - Success criteria met. Exiting.
+[2021-02-28 14:16:07,750] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=bitcoin_price_dag, task_id=is_api_available, execution_date=20210228T131603, start_date=20210228T131607, end_date=20210228T131607
+[2021-02-28 14:16:07,767] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-02-28 14:16:07,804] {local_task_job.py:146} INFO - Task exited with return code 0

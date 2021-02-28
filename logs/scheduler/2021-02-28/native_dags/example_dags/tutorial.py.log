@@ -1,0 +1,42 @@
+[2021-02-28 09:11:38,598] {scheduler_job.py:182} INFO - Started process (PID=34660) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:11:38,599] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-28 09:11:38,599] {logging_mixin.py:104} INFO - [2021-02-28 09:11:38,599] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:11:38,608] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:11:38,633] {logging_mixin.py:104} INFO - [2021-02-28 09:11:38,633] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:11:38,638] {logging_mixin.py:104} INFO - [2021-02-28 09:11:38,638] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:11:38,646] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.048 seconds
+[2021-02-28 09:12:19,974] {scheduler_job.py:182} INFO - Started process (PID=34773) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:12:19,976] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-28 09:12:19,977] {logging_mixin.py:104} INFO - [2021-02-28 09:12:19,977] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:12:19,983] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:12:20,004] {logging_mixin.py:104} INFO - [2021-02-28 09:12:20,004] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:12:20,010] {logging_mixin.py:104} INFO - [2021-02-28 09:12:20,010] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:12:20,014] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.041 seconds
+[2021-02-28 09:13:05,662] {scheduler_job.py:182} INFO - Started process (PID=34918) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:13:05,664] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-28 09:13:05,665] {logging_mixin.py:104} INFO - [2021-02-28 09:13:05,665] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:13:05,671] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:13:05,694] {logging_mixin.py:104} INFO - [2021-02-28 09:13:05,694] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:13:05,699] {logging_mixin.py:104} INFO - [2021-02-28 09:13:05,699] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:13:05,706] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2021-02-28 09:13:50,187] {scheduler_job.py:182} INFO - Started process (PID=34965) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:13:50,189] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-28 09:13:50,190] {logging_mixin.py:104} INFO - [2021-02-28 09:13:50,190] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:13:50,198] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:13:50,223] {logging_mixin.py:104} INFO - [2021-02-28 09:13:50,223] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:13:50,228] {logging_mixin.py:104} INFO - [2021-02-28 09:13:50,228] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:13:50,234] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.048 seconds
+[2021-02-28 09:14:37,076] {scheduler_job.py:182} INFO - Started process (PID=35025) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:14:37,078] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-28 09:14:37,078] {logging_mixin.py:104} INFO - [2021-02-28 09:14:37,078] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:14:37,084] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:14:37,108] {logging_mixin.py:104} INFO - [2021-02-28 09:14:37,108] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:14:37,113] {logging_mixin.py:104} INFO - [2021-02-28 09:14:37,113] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:14:37,120] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2021-02-28 09:15:23,878] {scheduler_job.py:182} INFO - Started process (PID=35113) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:15:23,880] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-02-28 09:15:23,880] {logging_mixin.py:104} INFO - [2021-02-28 09:15:23,880] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:15:23,886] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-02-28 09:15:23,910] {logging_mixin.py:104} INFO - [2021-02-28 09:15:23,910] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:15:23,916] {logging_mixin.py:104} INFO - [2021-02-28 09:15:23,916] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:15:23,921] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds

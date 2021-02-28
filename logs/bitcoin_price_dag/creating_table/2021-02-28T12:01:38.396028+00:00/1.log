@@ -1,0 +1,39 @@
+[2021-02-28 13:01:41,705] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: bitcoin_price_dag.creating_table 2021-02-28T12:01:38.396028+00:00 [queued]>
+[2021-02-28 13:01:41,711] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: bitcoin_price_dag.creating_table 2021-02-28T12:01:38.396028+00:00 [queued]>
+[2021-02-28 13:01:41,711] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-28 13:01:41,711] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-02-28 13:01:41,711] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-28 13:01:41,716] {taskinstance.py:1063} INFO - Executing <Task(SqliteOperator): creating_table> on 2021-02-28T12:01:38.396028+00:00
+[2021-02-28 13:01:41,718] {standard_task_runner.py:52} INFO - Started process 39931 to run task
+[2021-02-28 13:01:41,725] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'bitcoin_price_dag', 'creating_table', '2021-02-28T12:01:38.396028+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/bitcoin_price_dag.py', '--cfg-path', '/var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T/tmpmjk7mx98', '--error-file', '/var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T/tmpkp7kt4w5']
+[2021-02-28 13:01:41,727] {standard_task_runner.py:77} INFO - Job 5: Subtask creating_table
+[2021-02-28 13:01:41,755] {logging_mixin.py:104} INFO - Running <TaskInstance: bitcoin_price_dag.creating_table 2021-02-28T12:01:38.396028+00:00 [running]> on host 120.0.168.192.in-addr.arpa
+[2021-02-28 13:01:41,776] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=bitcoin_price_dag
+AIRFLOW_CTX_TASK_ID=creating_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-28T12:01:38.396028+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-02-28T12:01:38.396028+00:00
+[2021-02-28 13:01:41,777] {sqlite.py:63} INFO - Executing: 
+            CREATE TABLE IF NOT EXISTS bitcoin(
+                date TEXT NOT NULL PRIMARY KEY,
+                euro INTEGER NOT NULL,
+                doller INTEGER NOT NULL,
+                yen INTEGER NOT NULL
+            );
+            
+[2021-02-28 13:01:41,780] {base.py:65} INFO - Using connection to: id: db_sqlite. Host: /Users/yuyatinnefeld/Desktop/projects/airflow/airflow.db, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-02-28 13:01:41,781] {dbapi.py:180} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS bitcoin(
+                date TEXT NOT NULL PRIMARY KEY,
+                euro INTEGER NOT NULL,
+                doller INTEGER NOT NULL,
+                yen INTEGER NOT NULL
+            );
+            , parameters: []
+[2021-02-28 13:01:41,781] {dbapi.py:186} INFO - Rows affected: -1
+[2021-02-28 13:01:41,785] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=bitcoin_price_dag, task_id=creating_table, execution_date=20210228T120138, start_date=20210228T120141, end_date=20210228T120141
+[2021-02-28 13:01:41,800] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-02-28 13:01:41,828] {local_task_job.py:146} INFO - Task exited with return code 0

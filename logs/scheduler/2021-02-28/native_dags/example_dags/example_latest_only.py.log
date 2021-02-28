@@ -1,0 +1,42 @@
+[2021-02-28 09:11:54,426] {scheduler_job.py:182} INFO - Started process (PID=34693) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:11:54,426] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-28 09:11:54,426] {logging_mixin.py:104} INFO - [2021-02-28 09:11:54,426] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:11:54,435] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:11:54,459] {logging_mixin.py:104} INFO - [2021-02-28 09:11:54,458] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:11:54,465] {logging_mixin.py:104} INFO - [2021-02-28 09:11:54,464] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:11:54,469] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.043 seconds
+[2021-02-28 09:12:50,298] {scheduler_job.py:182} INFO - Started process (PID=34908) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:12:50,299] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-28 09:12:50,300] {logging_mixin.py:104} INFO - [2021-02-28 09:12:50,299] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:12:50,307] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:12:50,332] {logging_mixin.py:104} INFO - [2021-02-28 09:12:50,332] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:12:50,338] {logging_mixin.py:104} INFO - [2021-02-28 09:12:50,338] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:12:50,342] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-02-28 09:13:34,611] {scheduler_job.py:182} INFO - Started process (PID=34949) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:13:34,611] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-28 09:13:34,612] {logging_mixin.py:104} INFO - [2021-02-28 09:13:34,612] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:13:34,616] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:13:34,638] {logging_mixin.py:104} INFO - [2021-02-28 09:13:34,638] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:13:34,644] {logging_mixin.py:104} INFO - [2021-02-28 09:13:34,644] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:13:34,649] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.038 seconds
+[2021-02-28 09:14:21,605] {scheduler_job.py:182} INFO - Started process (PID=35008) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:14:21,608] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-28 09:14:21,608] {logging_mixin.py:104} INFO - [2021-02-28 09:14:21,608] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:14:21,615] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:14:21,642] {logging_mixin.py:104} INFO - [2021-02-28 09:14:21,642] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:14:21,650] {logging_mixin.py:104} INFO - [2021-02-28 09:14:21,650] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:14:21,654] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2021-02-28 09:15:08,214] {scheduler_job.py:182} INFO - Started process (PID=35085) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:15:08,215] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-28 09:15:08,215] {logging_mixin.py:104} INFO - [2021-02-28 09:15:08,215] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:15:08,220] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:15:08,241] {logging_mixin.py:104} INFO - [2021-02-28 09:15:08,241] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:15:08,248] {logging_mixin.py:104} INFO - [2021-02-28 09:15:08,248] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:15:08,252] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.039 seconds
+[2021-02-28 09:15:56,300] {scheduler_job.py:182} INFO - Started process (PID=35146) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:15:56,302] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-02-28 09:15:56,302] {logging_mixin.py:104} INFO - [2021-02-28 09:15:56,302] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:15:56,310] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-02-28 09:15:56,332] {logging_mixin.py:104} INFO - [2021-02-28 09:15:56,332] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:15:56,338] {logging_mixin.py:104} INFO - [2021-02-28 09:15:56,338] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-02-26 00:00:00+00:00
+[2021-02-28 09:15:56,342] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.043 seconds

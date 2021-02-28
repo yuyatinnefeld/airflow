@@ -1,0 +1,49 @@
+[2021-02-28 09:11:20,434] {scheduler_job.py:182} INFO - Started process (PID=34649) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:11:20,435] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-02-28 09:11:20,435] {logging_mixin.py:104} INFO - [2021-02-28 09:11:20,435] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:11:20,441] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:11:20,465] {logging_mixin.py:104} INFO - [2021-02-28 09:11:20,465] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:11:20,471] {logging_mixin.py:104} INFO - [2021-02-28 09:11:20,471] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-02-28 09:11:20,475] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-02-28 09:12:01,113] {scheduler_job.py:182} INFO - Started process (PID=34708) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:12:01,113] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-02-28 09:12:01,113] {logging_mixin.py:104} INFO - [2021-02-28 09:12:01,113] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:12:01,118] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:12:01,140] {logging_mixin.py:104} INFO - [2021-02-28 09:12:01,140] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:12:01,145] {logging_mixin.py:104} INFO - [2021-02-28 09:12:01,145] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-02-28 09:12:01,149] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.036 seconds
+[2021-02-28 09:12:41,607] {scheduler_job.py:182} INFO - Started process (PID=34890) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:12:41,609] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-02-28 09:12:41,609] {logging_mixin.py:104} INFO - [2021-02-28 09:12:41,609] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:12:41,619] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:12:41,641] {logging_mixin.py:104} INFO - [2021-02-28 09:12:41,641] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:12:41,646] {logging_mixin.py:104} INFO - [2021-02-28 09:12:41,646] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-02-28 09:12:41,650] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-02-28 09:13:26,114] {scheduler_job.py:182} INFO - Started process (PID=34939) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:13:26,114] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-02-28 09:13:26,114] {logging_mixin.py:104} INFO - [2021-02-28 09:13:26,114] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:13:26,119] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:13:26,141] {logging_mixin.py:104} INFO - [2021-02-28 09:13:26,141] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:13:26,147] {logging_mixin.py:104} INFO - [2021-02-28 09:13:26,146] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-02-28 09:13:26,151] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds
+[2021-02-28 09:14:11,041] {scheduler_job.py:182} INFO - Started process (PID=34995) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:14:11,044] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-02-28 09:14:11,044] {logging_mixin.py:104} INFO - [2021-02-28 09:14:11,044] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:14:11,051] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:14:11,075] {logging_mixin.py:104} INFO - [2021-02-28 09:14:11,075] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:14:11,081] {logging_mixin.py:104} INFO - [2021-02-28 09:14:11,081] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-02-28 09:14:11,086] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2021-02-28 09:14:59,626] {scheduler_job.py:182} INFO - Started process (PID=35050) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:14:59,626] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-02-28 09:14:59,626] {logging_mixin.py:104} INFO - [2021-02-28 09:14:59,626] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:14:59,633] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:14:59,657] {logging_mixin.py:104} INFO - [2021-02-28 09:14:59,657] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:14:59,662] {logging_mixin.py:104} INFO - [2021-02-28 09:14:59,662] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-02-28 09:14:59,667] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-02-28 09:15:46,307] {scheduler_job.py:182} INFO - Started process (PID=35135) to work on /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:15:46,309] {scheduler_job.py:629} INFO - Processing file /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-02-28 09:15:46,310] {logging_mixin.py:104} INFO - [2021-02-28 09:15:46,309] {dagbag.py:448} INFO - Filling up the DagBag from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:15:46,316] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-02-28 09:15:46,342] {logging_mixin.py:104} INFO - [2021-02-28 09:15:46,341] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-02-28 09:15:46,347] {logging_mixin.py:104} INFO - [2021-02-28 09:15:46,347] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-02-28 09:15:46,352] {scheduler_job.py:190} INFO - Processing /Users/yuyatinnefeld/Desktop/projects/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds

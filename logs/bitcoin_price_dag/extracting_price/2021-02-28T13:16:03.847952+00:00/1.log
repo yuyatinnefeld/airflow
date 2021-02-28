@@ -1,0 +1,49 @@
+[2021-02-28 14:16:09,609] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: bitcoin_price_dag.extracting_price 2021-02-28T13:16:03.847952+00:00 [queued]>
+[2021-02-28 14:16:09,615] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: bitcoin_price_dag.extracting_price 2021-02-28T13:16:03.847952+00:00 [queued]>
+[2021-02-28 14:16:09,615] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-28 14:16:09,615] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-02-28 14:16:09,615] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-28 14:16:09,620] {taskinstance.py:1063} INFO - Executing <Task(SimpleHttpOperator): extracting_price> on 2021-02-28T13:16:03.847952+00:00
+[2021-02-28 14:16:09,623] {standard_task_runner.py:52} INFO - Started process 49749 to run task
+[2021-02-28 14:16:09,630] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'bitcoin_price_dag', 'extracting_price', '2021-02-28T13:16:03.847952+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/bitcoin_price_dag.py', '--cfg-path', '/var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T/tmp29a4x_3k', '--error-file', '/var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T/tmpzd08mq83']
+[2021-02-28 14:16:09,631] {standard_task_runner.py:77} INFO - Job 4: Subtask extracting_price
+[2021-02-28 14:16:09,658] {logging_mixin.py:104} INFO - Running <TaskInstance: bitcoin_price_dag.extracting_price 2021-02-28T13:16:03.847952+00:00 [running]> on host 120.0.168.192.in-addr.arpa
+[2021-02-28 14:16:09,683] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=bitcoin_price_dag
+AIRFLOW_CTX_TASK_ID=extracting_price
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-28T13:16:03.847952+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-02-28T13:16:03.847952+00:00
+[2021-02-28 14:16:09,683] {http.py:106} INFO - Calling HTTP method
+[2021-02-28 14:16:09,687] {base.py:65} INFO - Using connection to: id: bitcoin_api. Host: https://blockchain.info/, Port: None, Schema: , Login: , Password: None, extra: None
+[2021-02-28 14:16:09,691] {http.py:140} INFO - Sending 'GET' to url: https://blockchain.info/ticker
+[2021-02-28 14:16:09,827] {http.py:110} INFO - {
+  "USD" : {"15m" : 44663.94, "last" : 44663.94, "buy" : 44663.94, "sell" : 44663.94, "symbol" : "$"},
+  "AUD" : {"15m" : 57962.68, "last" : 57962.68, "buy" : 57962.68, "sell" : 57962.68, "symbol" : "$"},
+  "BRL" : {"15m" : 250082.36, "last" : 250082.36, "buy" : 250082.36, "sell" : 250082.36, "symbol" : "R$"},
+  "CAD" : {"15m" : 56888.91, "last" : 56888.91, "buy" : 56888.91, "sell" : 56888.91, "symbol" : "$"},
+  "CHF" : {"15m" : 40589.52, "last" : 40589.52, "buy" : 40589.52, "sell" : 40589.52, "symbol" : "CHF"},
+  "CLP" : {"15m" : 3.233225343E7, "last" : 3.233225343E7, "buy" : 3.233225343E7, "sell" : 3.233225343E7, "symbol" : "$"},
+  "CNY" : {"15m" : 289373.23, "last" : 289373.23, "buy" : 289373.23, "sell" : 289373.23, "symbol" : "¥"},
+  "DKK" : {"15m" : 275109.8, "last" : 275109.8, "buy" : 275109.8, "sell" : 275109.8, "symbol" : "kr"},
+  "EUR" : {"15m" : 37121.48, "last" : 37121.48, "buy" : 37121.48, "sell" : 37121.48, "symbol" : "€"},
+  "GBP" : {"15m" : 32074.65, "last" : 32074.65, "buy" : 32074.65, "sell" : 32074.65, "symbol" : "£"},
+  "HKD" : {"15m" : 346435.88, "last" : 346435.88, "buy" : 346435.88, "sell" : 346435.88, "symbol" : "$"},
+  "INR" : {"15m" : 3287105.5, "last" : 3287105.5, "buy" : 3287105.5, "sell" : 3287105.5, "symbol" : "₹"},
+  "ISK" : {"15m" : 5686166.73, "last" : 5686166.73, "buy" : 5686166.73, "sell" : 5686166.73, "symbol" : "kr"},
+  "JPY" : {"15m" : 4761308.88, "last" : 4761308.88, "buy" : 4761308.88, "sell" : 4761308.88, "symbol" : "¥"},
+  "KRW" : {"15m" : 5.024113086E7, "last" : 5.024113086E7, "buy" : 5.024113086E7, "sell" : 5.024113086E7, "symbol" : "₩"},
+  "NZD" : {"15m" : 61740.89, "last" : 61740.89, "buy" : 61740.89, "sell" : 61740.89, "symbol" : "$"},
+  "PLN" : {"15m" : 167279.87, "last" : 167279.87, "buy" : 167279.87, "sell" : 167279.87, "symbol" : "zł"},
+  "RUB" : {"15m" : 3331103.95, "last" : 3331103.95, "buy" : 3331103.95, "sell" : 3331103.95, "symbol" : "RUB"},
+  "SEK" : {"15m" : 376875.03, "last" : 376875.03, "buy" : 376875.03, "sell" : 376875.03, "symbol" : "kr"},
+  "SGD" : {"15m" : 59510.24, "last" : 59510.24, "buy" : 59510.24, "sell" : 59510.24, "symbol" : "$"},
+  "THB" : {"15m" : 1361365.91, "last" : 1361365.91, "buy" : 1361365.91, "sell" : 1361365.91, "symbol" : "฿"},
+  "TRY" : {"15m" : 331643.18, "last" : 331643.18, "buy" : 331643.18, "sell" : 331643.18, "symbol" : "₺"},
+  "TWD" : {"15m" : 1244761.79, "last" : 1244761.79, "buy" : 1244761.79, "sell" : 1244761.79, "symbol" : "NT$"}
+}
+[2021-02-28 14:16:09,841] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=bitcoin_price_dag, task_id=extracting_price, execution_date=20210228T131603, start_date=20210228T131609, end_date=20210228T131609
+[2021-02-28 14:16:09,854] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-02-28 14:16:09,891] {local_task_job.py:146} INFO - Task exited with return code 0

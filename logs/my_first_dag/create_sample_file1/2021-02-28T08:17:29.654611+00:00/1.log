@@ -1,0 +1,29 @@
+[2021-02-28 09:17:31,598] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: my_first_dag.create_sample_file1 2021-02-28T08:17:29.654611+00:00 [queued]>
+[2021-02-28 09:17:31,604] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: my_first_dag.create_sample_file1 2021-02-28T08:17:29.654611+00:00 [queued]>
+[2021-02-28 09:17:31,604] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-28 09:17:31,604] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-02-28 09:17:31,604] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-28 09:17:31,610] {taskinstance.py:1063} INFO - Executing <Task(BashOperator): create_sample_file1> on 2021-02-28T08:17:29.654611+00:00
+[2021-02-28 09:17:31,611] {standard_task_runner.py:52} INFO - Started process 35222 to run task
+[2021-02-28 09:17:31,618] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'my_first_dag', 'create_sample_file1', '2021-02-28T08:17:29.654611+00:00', '--job-id', '11', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T/tmpc_pw_b3v', '--error-file', '/var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T/tmp8rhwls5z']
+[2021-02-28 09:17:31,620] {standard_task_runner.py:77} INFO - Job 11: Subtask create_sample_file1
+[2021-02-28 09:17:31,648] {logging_mixin.py:104} INFO - Running <TaskInstance: my_first_dag.create_sample_file1 2021-02-28T08:17:29.654611+00:00 [running]> on host 120.0.168.192.in-addr.arpa
+[2021-02-28 09:17:31,672] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=my_first_dag
+AIRFLOW_CTX_TASK_ID=create_sample_file1
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-28T08:17:29.654611+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-02-28T08:17:29.654611+00:00
+[2021-02-28 09:17:31,672] {bash.py:135} INFO - Tmp dir root location: 
+ /var/folders/fh/z0rf64gj7d93005s7pxrkwm40000gn/T
+[2021-02-28 09:17:31,673] {bash.py:158} INFO - Running command: 
+            cd /Users/yuyatinnefeld/Desktop/projects/airflow/data
+            touch sample1.txt
+            date >> sample1.txt
+[2021-02-28 09:17:31,678] {bash.py:169} INFO - Output:
+[2021-02-28 09:17:31,689] {bash.py:177} INFO - Command exited with return code 0
+[2021-02-28 09:17:31,700] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=my_first_dag, task_id=create_sample_file1, execution_date=20210228T081729, start_date=20210228T081731, end_date=20210228T081731
+[2021-02-28 09:17:31,713] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-02-28 09:17:31,756] {local_task_job.py:146} INFO - Task exited with return code 0
