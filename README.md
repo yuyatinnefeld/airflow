@@ -131,7 +131,7 @@ airflow tasks test [YOUR DAG NAME] [TASK NAME] [YYYY-MM]
 
 Ex.
 ```bash
-airflow tasks test bitcoin_price_dag creating_table 2021-02
+airflow tasks test bitcoin_price_dag creating_table 2021-02 
 ```
 
 5. Create API sensor (Task2 API available check)
