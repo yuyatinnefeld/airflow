@@ -1,34 +1,46 @@
+from datetime import datetime
+from bs4 import BeautifulSoup
+from pandas import json_normalize
+
 import requests
 import pandas as pd
 import json
-import datetime as dt
 
+def request_url(url):
+    return requests.get(url)
 
-def request_url():
-    response = requests.get('https://api.github.com/events')
-    url = response.url
-    status = response.status_code
-    encoding = response.encoding
-    time = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
-    data = {
-        'time':time, 
-        'url':url, 
-        'status':status, 
-        'encoding':encoding
-    }
-    return data
+def _extracting_data():
+    where='köln' #where='d%C3%BCsseldorf'
+    category='data+engineer' #category='data+scientist'
+    URL = f'https://de.indeed.com/jobs?q={category}&l={where}'
+    page = request_url(URL)
 
-def save_text():
-    data = request_url()
-    with open('data/request.txt', 'a') as outfile:
-        outfile.write(str(data) + ', \n')
+    if(page.status_code == 200):
+        soup = BeautifulSoup(page.content, 'html.parser')
+        results = soup.find(id='resultsCol')
+        today = datetime.today()
+        
+        job_elems = results.find_all('div', class_='jobsearch-SerpJobCard')
+        job_list = []
 
-def save_json():
-    data = request_url()
-    with open('data/request.json', 'a') as outfile:
-        json.dump(data, outfile)
-
-def save_csv():
-    data = {'time': ['2021-01-27 21:02', '2021-01-27 21:07'], 'url':['https://api.github.com/events', 'https://www.wamo.com']}
-    df = pd.DataFrame(data=data)
-    df.to_csv (r'data/request.csv', index = False)
+        for job_elem in job_elems:
+            title_elem = job_elem.find('h2', class_='title')
+            company_elem = job_elem.find('span', class_='company')
+            location_elem = job_elem.find('span', class_='location')
+            link_elm = job_elem.find('a')
+            
+            if None in (title_elem, company_elem, location_elem):
+                continue
+            else:
+                job = {
+                    'date': today,
+                    'title':title_elem.text.strip().replace('\n','').replace('neu',''),
+                    'company':company_elem.text.strip(),
+                    'location':location_elem.text.strip(),
+                    'link': f'https://de.indeed.com{link_elm["href"]}',
+                }
+            
+                job_list.append(job)
+    
+        processed_jobs = json_normalize(job_list)
+        processed_jobs.to_csv('data/processed_jobs.csv', index=None, header=False)

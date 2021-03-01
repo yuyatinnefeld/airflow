@@ -5387,3 +5387,1093 @@ File Path                                                                 PID   
 [2021-02-28 14:16:40,292] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
 [2021-02-28 14:16:40,294] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-02-28 13:11:40.294090+00:00
 [2021-02-28 14:16:51,118] {dag_processing.py:571} INFO - Exiting gracefully upon receiving signal 15
+[2021-03-01 07:54:43,318] {dag_processing.py:590} INFO - Processing files using up to 1 processes at a time 
+[2021-03-01 07:54:43,320] {dag_processing.py:591} INFO - Process each file at most once every 30 seconds
+[2021-03-01 07:54:43,320] {dag_processing.py:592} INFO - Checking for new files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags every 300 seconds
+[2021-03-01 07:54:43,320] {dag_processing.py:731} INFO - Searching for files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 07:54:43,323] {dag_processing.py:734} INFO - There are 6 files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 07:54:43,393] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:54:43,394] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:49:43.394073+00:00
+[2021-03-01 07:54:55,445] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:54:55,446] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:49:55.446560+00:00
+[2021-03-01 07:55:05,512] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:55:05,512] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:50:05.512441+00:00
+[2021-03-01 07:55:13,540] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.94s           2021-03-01T06:54:56
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.71s           2021-03-01T06:54:52
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.06s           2021-03-01T06:54:54
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.70s           2021-03-01T06:54:45
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  1.29s           2021-03-01T06:54:49
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.66s           2021-03-01T06:54:47
+================================================================================
+[2021-03-01 07:55:21,222] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:55:21,222] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:50:21.222588+00:00
+[2021-03-01 07:55:31,491] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:55:31,492] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:50:31.492087+00:00
+[2021-03-01 07:55:41,641] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:55:41,641] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:50:41.641705+00:00
+[2021-03-01 07:55:43,601] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.72s           2021-03-01T06:55:34
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.70s           2021-03-01T06:55:30
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.00s           2021-03-01T06:55:32
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.06s           2021-03-01T06:55:28
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.67s           2021-03-01T06:55:21
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.73s           2021-03-01T06:55:26
+================================================================================
+[2021-03-01 07:55:51,713] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:55:51,713] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:50:51.713204+00:00
+[2021-03-01 07:56:02,521] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:56:02,522] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:51:02.522357+00:00
+[2021-03-01 07:56:12,668] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:56:12,668] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:51:12.668346+00:00
+[2021-03-01 07:56:14,630] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.72s           2021-03-01T06:56:05
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.67s           2021-03-01T06:56:01
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.99s           2021-03-01T06:56:03
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.98s           2021-03-01T06:55:59
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.73s           2021-03-01T06:55:53
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.67s           2021-03-01T06:55:58
+================================================================================
+[2021-03-01 07:56:22,745] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:56:22,745] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:51:22.745754+00:00
+[2021-03-01 07:56:33,499] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:56:33,500] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:51:33.500637+00:00
+[2021-03-01 07:56:43,557] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:56:43,557] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:51:43.557734+00:00
+[2021-03-01 07:56:45,508] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.69s           2021-03-01T06:56:37
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.66s           2021-03-01T06:56:32
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.91s           2021-03-01T06:56:35
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.93s           2021-03-01T06:56:30
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.76s           2021-03-01T06:56:24
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.74s           2021-03-01T06:56:29
+================================================================================
+[2021-03-01 07:56:53,645] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:56:53,645] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:51:53.645623+00:00
+[2021-03-01 07:57:04,525] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:57:04,526] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:52:04.526566+00:00
+[2021-03-01 07:57:14,644] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:57:14,645] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:52:14.645378+00:00
+[2021-03-01 07:57:15,687] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.68s           2021-03-01T06:57:08
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.67s           2021-03-01T06:57:03
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.96s           2021-03-01T06:57:06
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.96s           2021-03-01T06:57:01
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.66s           2021-03-01T06:56:55
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.67s           2021-03-01T06:57:00
+================================================================================
+[2021-03-01 07:57:24,734] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:57:24,735] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:52:24.735026+00:00
+[2021-03-01 07:57:35,566] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:57:35,567] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:52:35.567014+00:00
+[2021-03-01 07:57:45,671] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:57:45,672] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:52:45.672606+00:00
+[2021-03-01 07:57:46,706] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.66s           2021-03-01T06:57:39
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T06:57:34
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.94s           2021-03-01T06:57:37
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.93s           2021-03-01T06:57:32
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.68s           2021-03-01T06:57:26
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.64s           2021-03-01T06:57:31
+================================================================================
+[2021-03-01 07:57:55,774] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:57:55,774] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:52:55.774316+00:00
+[2021-03-01 07:58:06,538] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:58:06,538] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:53:06.538804+00:00
+[2021-03-01 07:58:16,670] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:58:16,671] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:53:16.671161+00:00
+[2021-03-01 07:58:17,704] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.68s           2021-03-01T06:58:10
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.65s           2021-03-01T06:58:05
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.97s           2021-03-01T06:58:08
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.98s           2021-03-01T06:58:03
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.69s           2021-03-01T06:57:57
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.67s           2021-03-01T06:58:02
+================================================================================
+[2021-03-01 07:58:26,731] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:58:26,731] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:53:26.731412+00:00
+[2021-03-01 07:58:37,542] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:58:37,543] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:53:37.543466+00:00
+[2021-03-01 07:58:47,646] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:58:47,647] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:53:47.647076+00:00
+[2021-03-01 07:58:48,681] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.69s           2021-03-01T06:58:41
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.65s           2021-03-01T06:58:36
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.93s           2021-03-01T06:58:39
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.94s           2021-03-01T06:58:34
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.67s           2021-03-01T06:58:28
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.65s           2021-03-01T06:58:33
+================================================================================
+[2021-03-01 07:58:57,727] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:58:57,727] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:53:57.727438+00:00
+[2021-03-01 07:59:08,598] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:59:08,599] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:54:08.599043+00:00
+[2021-03-01 07:59:18,737] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:59:18,738] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:54:18.738559+00:00
+[2021-03-01 07:59:18,745] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.69s           2021-03-01T06:59:12
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.68s           2021-03-01T06:59:07
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.96s           2021-03-01T06:59:10
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.95s           2021-03-01T06:59:05
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.65s           2021-03-01T06:58:59
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.64s           2021-03-01T06:59:04
+================================================================================
+[2021-03-01 07:59:28,826] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:59:28,826] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:54:28.826504+00:00
+[2021-03-01 07:59:39,692] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:59:39,693] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:54:39.693104+00:00
+[2021-03-01 07:59:43,346] {dag_processing.py:731} INFO - Searching for files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 07:59:43,349] {dag_processing.py:734} INFO - There are 6 files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 07:59:48,941] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.76s           2021-03-01T06:59:44
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T06:59:38
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.13s           2021-03-01T06:59:41
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.99s           2021-03-01T06:59:36
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.66s           2021-03-01T06:59:30
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.70s           2021-03-01T06:59:35
+================================================================================
+[2021-03-01 07:59:49,964] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 07:59:49,964] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:54:49.964896+00:00
+[2021-03-01 08:00:00,045] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:00:00,046] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:55:00.046179+00:00
+[2021-03-01 08:00:10,690] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:00:10,690] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:55:10.690970+00:00
+[2021-03-01 08:00:19,738] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.72s           2021-03-01T07:00:15
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.67s           2021-03-01T07:00:09
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.91s           2021-03-01T07:00:13
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.99s           2021-03-01T07:00:07
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.83s           2021-03-01T07:00:01
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.69s           2021-03-01T07:00:06
+================================================================================
+[2021-03-01 08:00:20,763] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:00:20,763] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:55:20.763198+00:00
+[2021-03-01 08:00:30,839] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:00:30,839] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:55:30.839556+00:00
+[2021-03-01 08:00:41,811] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:00:41,812] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:55:41.812221+00:00
+[2021-03-01 08:00:49,780] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.75s           2021-03-01T07:00:46
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T07:00:40
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.05s           2021-03-01T07:00:44
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.00s           2021-03-01T07:00:39
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.73s           2021-03-01T07:00:33
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.72s           2021-03-01T07:00:37
+================================================================================
+[2021-03-01 08:00:52,032] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:00:52,032] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:55:52.032887+00:00
+[2021-03-01 08:01:02,090] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:01:02,090] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:56:02.090878+00:00
+[2021-03-01 08:01:13,005] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:01:13,006] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:56:13.006519+00:00
+[2021-03-01 08:01:19,895] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.74s           2021-03-01T07:01:17
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.71s           2021-03-01T07:01:11
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.00s           2021-03-01T07:01:16
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.14s           2021-03-01T07:01:10
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.68s           2021-03-01T07:01:04
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.79s           2021-03-01T07:01:08
+================================================================================
+[2021-03-01 08:01:23,166] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:01:23,166] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:56:23.166544+00:00
+[2021-03-01 08:01:33,256] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:01:33,256] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:56:33.256506+00:00
+[2021-03-01 08:01:44,230] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:01:44,231] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:56:44.231639+00:00
+[2021-03-01 08:01:50,197] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.78s           2021-03-01T07:01:49
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.68s           2021-03-01T07:01:43
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.07s           2021-03-01T07:01:47
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.17s           2021-03-01T07:01:41
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.77s           2021-03-01T07:01:36
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.68s           2021-03-01T07:01:40
+================================================================================
+[2021-03-01 08:01:54,455] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:01:54,455] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:56:54.455861+00:00
+[2021-03-01 08:02:04,530] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:02:04,530] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:57:04.530703+00:00
+[2021-03-01 08:02:11,796] {dag_processing.py:571} INFO - Exiting gracefully upon receiving signal 15
+[2021-03-01 08:02:17,968] {dag_processing.py:590} INFO - Processing files using up to 1 processes at a time 
+[2021-03-01 08:02:17,968] {dag_processing.py:591} INFO - Process each file at most once every 30 seconds
+[2021-03-01 08:02:17,968] {dag_processing.py:592} INFO - Checking for new files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags every 300 seconds
+[2021-03-01 08:02:17,968] {dag_processing.py:731} INFO - Searching for files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 08:02:17,971] {dag_processing.py:734} INFO - There are 7 files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 08:02:18,014] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:02:18,014] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:57:18.014967+00:00
+[2021-03-01 08:02:30,033] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:02:30,033] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:57:30.033822+00:00
+[2021-03-01 08:02:40,118] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:02:40,118] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:57:40.118541+00:00
+[2021-03-01 08:02:47,701] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  1.55s           2021-03-01T07:02:22
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.74s           2021-03-01T07:02:30
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  2.13s           2021-03-01T07:02:20
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.07s           2021-03-01T07:02:27
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  1.21s           2021-03-01T07:02:28
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.85s           2021-03-01T07:02:32
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  1.48s           2021-03-01T07:02:25
+================================================================================
+[2021-03-01 08:02:50,197] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:02:50,198] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:57:50.198170+00:00
+[2021-03-01 08:03:00,933] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:03:00,934] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:58:00.934177+00:00
+[2021-03-01 08:03:11,010] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:03:11,011] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:58:11.011322+00:00
+[2021-03-01 08:03:18,109] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.77s           2021-03-01T07:02:54
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T07:03:01
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.15s           2021-03-01T07:02:51
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.11s           2021-03-01T07:02:59
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.67s           2021-03-01T07:02:59
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.72s           2021-03-01T07:03:03
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.72s           2021-03-01T07:02:56
+================================================================================
+[2021-03-01 08:03:21,088] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:03:21,088] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:58:21.088942+00:00
+[2021-03-01 08:03:32,075] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:03:32,076] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:58:32.076208+00:00
+[2021-03-01 08:03:42,139] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:03:42,139] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:58:42.139830+00:00
+[2021-03-01 08:03:48,203] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.85s           2021-03-01T07:03:25
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T07:03:35
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.03s           2021-03-01T07:03:23
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.02s           2021-03-01T07:03:31
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.72s           2021-03-01T07:03:32
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.78s           2021-03-01T07:03:34
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.98s           2021-03-01T07:03:27
+================================================================================
+[2021-03-01 08:03:52,215] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:03:52,215] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:58:52.215748+00:00
+[2021-03-01 08:04:03,712] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:04:03,713] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:59:03.713351+00:00
+[2021-03-01 08:04:13,892] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:04:13,893] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:59:13.893480+00:00
+[2021-03-01 08:04:18,936] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.76s           2021-03-01T07:03:56
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.65s           2021-03-01T07:04:07
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.12s           2021-03-01T07:03:54
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.94s           2021-03-01T07:04:02
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.69s           2021-03-01T07:04:04
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.69s           2021-03-01T07:04:06
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.64s           2021-03-01T07:03:58
+================================================================================
+[2021-03-01 08:04:23,974] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:04:23,974] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:59:23.974769+00:00
+[2021-03-01 08:04:34,476] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:04:34,477] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:59:34.477077+00:00
+[2021-03-01 08:04:44,951] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:04:44,952] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:59:44.952005+00:00
+[2021-03-01 08:04:48,951] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.77s           2021-03-01T07:04:27
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.67s           2021-03-01T07:04:38
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.04s           2021-03-01T07:04:26
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.06s           2021-03-01T07:04:33
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.72s           2021-03-01T07:04:35
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.67s           2021-03-01T07:04:36
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.69s           2021-03-01T07:04:29
+================================================================================
+[2021-03-01 08:04:55,029] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:04:55,029] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 06:59:55.029969+00:00
+[2021-03-01 08:05:09,420] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:05:09,421] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:00:09.421372+00:00
+[2021-03-01 08:05:21,712] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:05:21,712] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:00:21.712895+00:00
+[2021-03-01 08:05:22,408] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.75s           2021-03-01T07:04:58
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.69s           2021-03-01T07:05:22
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.01s           2021-03-01T07:04:57
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.29s           2021-03-01T07:05:05
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.65s           2021-03-01T07:05:18
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.98s           2021-03-01T07:05:10
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.77s           2021-03-01T07:05:00
+================================================================================
+[2021-03-01 08:05:33,119] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:05:33,119] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:00:33.119456+00:00
+[2021-03-01 08:05:43,205] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:05:43,206] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:00:43.206384+00:00
+[2021-03-01 08:05:53,176] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.76s           2021-03-01T07:05:30
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.70s           2021-03-01T07:05:53
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.00s           2021-03-01T07:05:28
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.93s           2021-03-01T07:05:36
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.71s           2021-03-01T07:05:49
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.66s           2021-03-01T07:05:41
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.75s           2021-03-01T07:05:32
+================================================================================
+[2021-03-01 08:05:54,199] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:05:54,200] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:00:54.200120+00:00
+[2021-03-01 08:06:04,647] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:06:04,647] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:01:04.647554+00:00
+[2021-03-01 08:06:14,725] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:06:14,725] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:01:14.725700+00:00
+[2021-03-01 08:06:24,232] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.74s           2021-03-01T07:06:01
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T07:06:24
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.99s           2021-03-01T07:05:59
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.03s           2021-03-01T07:06:07
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.65s           2021-03-01T07:06:20
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.75s           2021-03-01T07:06:12
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.71s           2021-03-01T07:06:03
+================================================================================
+[2021-03-01 08:06:25,456] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:06:25,456] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:01:25.456267+00:00
+[2021-03-01 08:06:36,085] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:06:36,086] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:01:36.086174+00:00
+[2021-03-01 08:06:46,525] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:06:46,525] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:01:46.525949+00:00
+[2021-03-01 08:06:55,421] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.72s           2021-03-01T07:06:33
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.73s           2021-03-01T07:06:55
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.09s           2021-03-01T07:06:31
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.98s           2021-03-01T07:06:39
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.66s           2021-03-01T07:06:51
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.76s           2021-03-01T07:06:43
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.68s           2021-03-01T07:06:35
+================================================================================
+[2021-03-01 08:06:56,773] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:06:56,773] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:01:56.773901+00:00
+[2021-03-01 08:07:07,299] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:07:07,300] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:02:07.300233+00:00
+[2021-03-01 08:07:17,900] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:07:17,901] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:02:17.901028+00:00
+[2021-03-01 08:07:18,937] {dag_processing.py:731} INFO - Searching for files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 08:07:18,940] {dag_processing.py:734} INFO - There are 7 files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 08:07:26,676] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.74s           2021-03-01T07:07:04
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.76s           2021-03-01T07:07:26
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.98s           2021-03-01T07:07:02
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.99s           2021-03-01T07:07:10
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.68s           2021-03-01T07:07:22
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.67s           2021-03-01T07:07:14
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.67s           2021-03-01T07:07:06
+================================================================================
+[2021-03-01 08:07:27,974] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:07:27,975] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:02:27.975053+00:00
+[2021-03-01 08:07:38,476] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:07:38,477] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:02:38.477265+00:00
+[2021-03-01 08:07:48,849] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:07:48,849] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:02:48.849823+00:00
+[2021-03-01 08:07:57,823] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.70s           2021-03-01T07:07:35
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.73s           2021-03-01T07:07:57
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.98s           2021-03-01T07:07:33
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.97s           2021-03-01T07:07:42
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.68s           2021-03-01T07:07:53
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.67s           2021-03-01T07:07:45
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.69s           2021-03-01T07:07:37
+================================================================================
+[2021-03-01 08:07:58,858] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:07:58,858] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:02:58.858866+00:00
+[2021-03-01 08:08:09,748] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:08:09,749] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:03:09.749342+00:00
+[2021-03-01 08:08:20,048] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:08:20,049] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:03:20.049413+00:00
+[2021-03-01 08:08:29,089] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.79s           2021-03-01T07:08:07
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.73s           2021-03-01T07:08:29
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.97s           2021-03-01T07:08:05
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.04s           2021-03-01T07:08:13
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.74s           2021-03-01T07:08:25
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.68s           2021-03-01T07:08:16
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.67s           2021-03-01T07:08:08
+================================================================================
+[2021-03-01 08:08:30,120] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:08:30,120] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:03:30.120432+00:00
+[2021-03-01 08:08:40,935] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:08:40,936] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:03:40.936125+00:00
+[2021-03-01 08:08:51,303] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:08:51,303] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:03:51.303675+00:00
+[2021-03-01 08:09:00,372] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.77s           2021-03-01T07:08:38
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.80s           2021-03-01T07:09:00
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.01s           2021-03-01T07:08:36
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.02s           2021-03-01T07:08:44
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.72s           2021-03-01T07:08:56
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.69s           2021-03-01T07:08:48
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.66s           2021-03-01T07:08:39
+================================================================================
+[2021-03-01 08:09:01,405] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:09:01,405] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:04:01.405211+00:00
+[2021-03-01 08:09:12,248] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:09:12,248] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:04:12.248517+00:00
+[2021-03-01 08:09:22,653] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:09:22,653] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:04:22.653537+00:00
+[2021-03-01 08:09:31,711] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.72s           2021-03-01T07:09:09
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.83s           2021-03-01T07:09:31
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.12s           2021-03-01T07:09:07
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.00s           2021-03-01T07:09:15
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.70s           2021-03-01T07:09:27
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.72s           2021-03-01T07:09:19
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.68s           2021-03-01T07:09:11
+================================================================================
+[2021-03-01 08:09:32,743] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:09:32,743] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:04:32.743921+00:00
+[2021-03-01 08:09:43,521] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:09:43,522] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:04:43.522081+00:00
+[2021-03-01 08:09:53,932] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:09:53,933] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:04:53.932976+00:00
+[2021-03-01 08:10:02,898] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.74s           2021-03-01T07:09:40
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.73s           2021-03-01T07:10:02
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.98s           2021-03-01T07:09:38
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.03s           2021-03-01T07:09:47
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.64s           2021-03-01T07:09:58
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.74s           2021-03-01T07:09:50
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.74s           2021-03-01T07:09:42
+================================================================================
+[2021-03-01 08:10:03,939] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:10:03,939] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:05:03.939407+00:00
+[2021-03-01 08:10:14,563] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:10:14,564] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:05:14.564071+00:00
+[2021-03-01 08:10:25,123] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:10:25,123] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:05:25.123510+00:00
+[2021-03-01 08:10:33,893] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.67s           2021-03-01T07:10:11
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.68s           2021-03-01T07:10:33
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.92s           2021-03-01T07:10:10
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.91s           2021-03-01T07:10:18
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.72s           2021-03-01T07:10:30
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.77s           2021-03-01T07:10:22
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.64s           2021-03-01T07:10:13
+================================================================================
+[2021-03-01 08:10:35,351] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:10:35,351] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:05:35.351455+00:00
+[2021-03-01 08:10:45,901] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:10:45,901] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:05:45.901644+00:00
+[2021-03-01 08:10:56,209] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:10:56,210] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:05:56.210074+00:00
+[2021-03-01 08:11:05,203] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.74s           2021-03-01T07:10:43
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.75s           2021-03-01T07:11:05
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.94s           2021-03-01T07:10:41
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.97s           2021-03-01T07:10:49
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.72s           2021-03-01T07:11:01
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.68s           2021-03-01T07:10:53
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.73s           2021-03-01T07:10:44
+================================================================================
+[2021-03-01 08:11:06,237] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:11:06,237] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:06:06.237725+00:00
+[2021-03-01 08:11:17,531] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:11:17,532] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:06:17.532514+00:00
+[2021-03-01 08:11:28,859] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:11:28,860] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:06:28.860248+00:00
+[2021-03-01 08:11:36,040] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  1.01s           2021-03-01T07:11:14
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T07:11:36
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.11s           2021-03-01T07:11:12
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.29s           2021-03-01T07:11:21
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.73s           2021-03-01T07:11:32
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.73s           2021-03-01T07:11:26
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.72s           2021-03-01T07:11:16
+================================================================================
+[2021-03-01 08:11:39,138] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:11:39,138] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:06:39.138334+00:00
+[2021-03-01 08:11:49,935] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:11:49,935] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:06:49.935647+00:00
+[2021-03-01 08:12:02,512] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:12:02,512] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:07:02.512593+00:00
+[2021-03-01 08:12:07,357] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.74s           2021-03-01T07:11:45
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.77s           2021-03-01T07:12:07
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.01s           2021-03-01T07:11:44
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.01s           2021-03-01T07:11:52
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.75s           2021-03-01T07:12:03
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.73s           2021-03-01T07:11:57
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.72s           2021-03-01T07:11:47
+================================================================================
+[2021-03-01 08:12:13,402] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:12:13,402] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:07:13.402843+00:00
+[2021-03-01 08:12:20,057] {dag_processing.py:731} INFO - Searching for files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 08:12:20,063] {dag_processing.py:734} INFO - There are 7 files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 08:12:25,185] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:12:25,186] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:07:25.186204+00:00
+[2021-03-01 08:12:35,239] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:12:35,239] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:07:35.239956+00:00
+[2021-03-01 08:12:39,059] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.74s           2021-03-01T07:12:17
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.74s           2021-03-01T07:12:39
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.01s           2021-03-01T07:12:15
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.99s           2021-03-01T07:12:24
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.76s           2021-03-01T07:12:34
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.72s           2021-03-01T07:12:28
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.66s           2021-03-01T07:12:19
+================================================================================
+[2021-03-01 08:12:45,309] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:12:45,309] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:07:45.309502+00:00
+[2021-03-01 08:12:57,083] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:12:57,084] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:07:57.084678+00:00
+[2021-03-01 08:13:07,150] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:13:07,150] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:08:07.150812+00:00
+[2021-03-01 08:13:09,931] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.73s           2021-03-01T07:12:49
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T07:13:09
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.99s           2021-03-01T07:12:47
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.00s           2021-03-01T07:12:56
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.75s           2021-03-01T07:13:04
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.68s           2021-03-01T07:12:59
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.70s           2021-03-01T07:12:50
+================================================================================
+[2021-03-01 08:13:17,223] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:13:17,224] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:08:17.224057+00:00
+[2021-03-01 08:13:28,184] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:13:28,188] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:08:28.188680+00:00
+[2021-03-01 08:13:38,258] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:13:38,258] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:08:38.258852+00:00
+[2021-03-01 08:13:41,018] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.75s           2021-03-01T07:13:21
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.70s           2021-03-01T07:13:41
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.01s           2021-03-01T07:13:19
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.07s           2021-03-01T07:13:27
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.80s           2021-03-01T07:13:36
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.72s           2021-03-01T07:13:30
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.72s           2021-03-01T07:13:21
+================================================================================
+[2021-03-01 08:13:48,330] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:13:48,330] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:08:48.330832+00:00
+[2021-03-01 08:13:59,256] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:13:59,256] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:08:59.256375+00:00
+[2021-03-01 08:14:09,337] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:14:09,337] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:09:09.337694+00:00
+[2021-03-01 08:14:12,139] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.76s           2021-03-01T07:13:52
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T07:14:12
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.06s           2021-03-01T07:13:50
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.00s           2021-03-01T07:13:58
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.76s           2021-03-01T07:14:07
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.69s           2021-03-01T07:14:01
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.85s           2021-03-01T07:13:53
+================================================================================
+[2021-03-01 08:14:19,417] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:14:19,417] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:09:19.417449+00:00
+[2021-03-01 08:14:30,352] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:14:30,353] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:09:30.353219+00:00
+[2021-03-01 08:14:40,426] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:14:40,428] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:09:40.428695+00:00
+[2021-03-01 08:14:43,317] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     0           1  0.75s           2021-03-01T07:14:33
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.74s           2021-03-01T07:14:23
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.83s           2021-03-01T07:14:43
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.09s           2021-03-01T07:14:21
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.03s           2021-03-01T07:14:29
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.97s           2021-03-01T07:14:38
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.75s           2021-03-01T07:14:24
+================================================================================
+[2021-03-01 08:14:50,504] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:14:50,504] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:09:50.504708+00:00
+[2021-03-01 08:15:00,519] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:15:00,522] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:10:00.522110+00:00
+[2021-03-01 08:15:10,611] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:15:10,612] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:10:10.612024+00:00
+[2021-03-01 08:15:14,443] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.98s           2021-03-01T07:14:55
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.74s           2021-03-01T07:15:14
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.49s           2021-03-01T07:14:54
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.05s           2021-03-01T07:15:00
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.76s           2021-03-01T07:15:09
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.73s           2021-03-01T07:15:04
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.67s           2021-03-01T07:14:57
+================================================================================
+[2021-03-01 08:15:20,693] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:15:20,694] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:10:20.694153+00:00
+[2021-03-01 08:15:31,267] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:15:31,269] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:10:31.269680+00:00
+[2021-03-01 08:15:41,855] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:15:41,856] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:10:41.856404+00:00
+[2021-03-01 08:15:45,810] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.78s           2021-03-01T07:15:32
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.68s           2021-03-01T07:15:45
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.04s           2021-03-01T07:15:28
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.14s           2021-03-01T07:15:36
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.75s           2021-03-01T07:15:40
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.74s           2021-03-01T07:15:37
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.83s           2021-03-01T07:15:33
+================================================================================
+[2021-03-01 08:15:52,215] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:15:52,215] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:10:52.215728+00:00
+[2021-03-01 08:16:02,334] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:16:02,335] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:11:02.335295+00:00
+[2021-03-01 08:16:12,829] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:16:12,830] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:11:12.830170+00:00
+[2021-03-01 08:16:16,711] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.69s           2021-03-01T07:16:03
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.69s           2021-03-01T07:16:16
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.07s           2021-03-01T07:16:00
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.99s           2021-03-01T07:16:07
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.82s           2021-03-01T07:16:11
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.65s           2021-03-01T07:16:08
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.68s           2021-03-01T07:16:04
+================================================================================
+[2021-03-01 08:16:23,134] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:16:23,134] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:11:23.134928+00:00
+[2021-03-01 08:16:33,361] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:16:33,362] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:11:33.362292+00:00
+[2021-03-01 08:16:44,744] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:16:44,747] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:11:44.747094+00:00
+[2021-03-01 08:16:47,883] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.71s           2021-03-01T07:16:34
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.78s           2021-03-01T07:16:47
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.17s           2021-03-01T07:16:32
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.05s           2021-03-01T07:16:40
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.85s           2021-03-01T07:16:43
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.79s           2021-03-01T07:16:41
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.72s           2021-03-01T07:16:35
+================================================================================
+[2021-03-01 08:16:55,110] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:16:55,111] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:11:55.111027+00:00
+[2021-03-01 08:17:06,769] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:17:06,770] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:12:06.770396+00:00
+[2021-03-01 08:17:17,367] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:17:17,369] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:12:17.369751+00:00
+[2021-03-01 08:17:19,161] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.73s           2021-03-01T07:17:05
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.75s           2021-03-01T07:17:19
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.06s           2021-03-01T07:17:03
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.11s           2021-03-01T07:17:11
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.80s           2021-03-01T07:17:15
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.86s           2021-03-01T07:17:13
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.70s           2021-03-01T07:17:07
+================================================================================
+[2021-03-01 08:17:20,197] {dag_processing.py:731} INFO - Searching for files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 08:17:20,204] {dag_processing.py:734} INFO - There are 7 files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 08:17:27,824] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:17:27,824] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:12:27.824346+00:00
+[2021-03-01 08:17:38,199] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:17:38,199] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:12:38.199461+00:00
+[2021-03-01 08:17:48,275] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:17:48,278] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:12:48.278204+00:00
+[2021-03-01 08:17:50,056] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.81s           2021-03-01T07:17:37
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.73s           2021-03-01T07:17:50
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.12s           2021-03-01T07:17:35
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.23s           2021-03-01T07:17:43
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.72s           2021-03-01T07:17:47
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  1.01s           2021-03-01T07:17:45
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.72s           2021-03-01T07:17:38
+================================================================================
+[2021-03-01 08:17:58,364] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:17:58,365] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:12:58.365171+00:00
+[2021-03-01 08:18:08,450] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:18:08,450] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:13:08.450730+00:00
+[2021-03-01 08:18:19,546] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:18:19,547] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:13:19.547308+00:00
+[2021-03-01 08:18:21,550] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.78s           2021-03-01T07:18:08
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.96s           2021-03-01T07:18:21
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.99s           2021-03-01T07:18:06
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.21s           2021-03-01T07:18:14
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  1.13s           2021-03-01T07:18:18
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  1.08s           2021-03-01T07:18:16
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.72s           2021-03-01T07:18:10
+================================================================================
+[2021-03-01 08:18:29,792] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:18:29,792] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:13:29.792384+00:00
+[2021-03-01 08:18:40,864] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:18:40,864] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:13:40.864876+00:00
+[2021-03-01 08:18:51,333] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:18:51,335] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:13:51.335572+00:00
+[2021-03-01 08:18:53,092] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.74s           2021-03-01T07:18:39
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T07:18:53
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.11s           2021-03-01T07:18:38
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.20s           2021-03-01T07:18:45
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.73s           2021-03-01T07:18:50
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.88s           2021-03-01T07:18:47
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.72s           2021-03-01T07:18:41
+================================================================================
+[2021-03-01 08:19:02,271] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:19:02,271] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:14:02.271934+00:00
+[2021-03-01 08:19:13,613] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:19:13,613] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:14:13.613954+00:00
+[2021-03-01 08:19:23,967] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  1.03s           2021-03-01T07:19:11
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.64s           2021-03-01T07:19:23
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.97s           2021-03-01T07:19:09
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.47s           2021-03-01T07:19:17
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.64s           2021-03-01T07:19:21
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.97s           2021-03-01T07:19:19
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.90s           2021-03-01T07:19:12
+================================================================================
+[2021-03-01 08:19:25,289] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:19:25,289] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:14:25.289400+00:00
+[2021-03-01 08:19:35,753] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:19:35,753] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:14:35.753839+00:00
+[2021-03-01 08:19:46,384] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:19:46,385] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:14:46.385285+00:00
+[2021-03-01 08:19:55,140] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.67s           2021-03-01T07:19:42
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.63s           2021-03-01T07:19:55
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.95s           2021-03-01T07:19:40
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.02s           2021-03-01T07:19:48
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.67s           2021-03-01T07:19:52
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.67s           2021-03-01T07:19:51
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.65s           2021-03-01T07:19:43
+================================================================================
+[2021-03-01 08:19:57,198] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:19:57,198] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:14:57.198806+00:00
+[2021-03-01 08:20:07,672] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:20:07,673] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:15:07.673332+00:00
+[2021-03-01 08:20:18,073] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:20:18,073] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:15:18.073766+00:00
+[2021-03-01 08:20:25,845] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.72s           2021-03-01T07:20:14
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.66s           2021-03-01T07:20:25
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.98s           2021-03-01T07:20:12
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.03s           2021-03-01T07:20:20
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.65s           2021-03-01T07:20:23
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.76s           2021-03-01T07:20:21
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.89s           2021-03-01T07:20:16
+================================================================================
+[2021-03-01 08:20:28,946] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:20:28,947] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:15:28.947046+00:00
+[2021-03-01 08:20:39,028] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:20:39,028] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:15:39.028822+00:00
+[2021-03-01 08:20:49,770] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:20:49,770] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:15:49.770572+00:00
+[2021-03-01 08:20:57,064] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.68s           2021-03-01T07:20:44
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T07:20:57
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.95s           2021-03-01T07:20:43
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.05s           2021-03-01T07:20:51
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.73s           2021-03-01T07:20:55
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.67s           2021-03-01T07:20:53
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.65s           2021-03-01T07:20:47
+================================================================================
+[2021-03-01 08:20:59,872] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:20:59,872] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:15:59.872315+00:00
+[2021-03-01 08:21:11,004] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:21:11,005] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:16:11.004987+00:00
+[2021-03-01 08:21:21,189] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:21:21,191] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:16:21.191019+00:00
+[2021-03-01 08:21:28,393] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.68s           2021-03-01T07:21:17
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.72s           2021-03-01T07:21:28
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.00s           2021-03-01T07:21:15
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.97s           2021-03-01T07:21:23
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.72s           2021-03-01T07:21:26
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.72s           2021-03-01T07:21:24
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.68s           2021-03-01T07:21:19
+================================================================================
+[2021-03-01 08:21:31,755] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:21:31,755] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:16:31.755347+00:00
+[2021-03-01 08:21:42,066] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:21:42,067] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:16:42.067129+00:00
+[2021-03-01 08:21:52,385] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:21:52,386] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:16:52.386467+00:00
+[2021-03-01 08:21:59,596] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.73s           2021-03-01T07:21:48
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.73s           2021-03-01T07:21:59
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.00s           2021-03-01T07:21:46
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  0.98s           2021-03-01T07:21:54
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.72s           2021-03-01T07:21:57
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.71s           2021-03-01T07:21:56
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.79s           2021-03-01T07:21:50
+================================================================================
+[2021-03-01 08:22:02,815] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:22:02,816] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:17:02.815983+00:00
+[2021-03-01 08:22:13,282] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:22:13,282] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:17:13.282949+00:00
+[2021-03-01 08:22:20,666] {dag_processing.py:731} INFO - Searching for files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 08:22:20,672] {dag_processing.py:734} INFO - There are 7 files in /Users/yuyatinnefeld/Desktop/projects/airflow/dags
+[2021-03-01 08:22:23,740] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:22:23,742] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:17:23.742043+00:00
+[2021-03-01 08:22:30,875] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.75s           2021-03-01T07:22:19
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.69s           2021-03-01T07:22:30
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  1.03s           2021-03-01T07:22:17
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.29s           2021-03-01T07:22:26
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.68s           2021-03-01T07:22:29
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.72s           2021-03-01T07:22:27
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.94s           2021-03-01T07:22:21
+================================================================================
+[2021-03-01 08:22:33,911] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:22:33,911] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:17:33.911751+00:00
+[2021-03-01 08:22:44,604] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:22:44,604] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:17:44.604765+00:00
+[2021-03-01 08:22:55,402] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:22:55,402] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:17:55.402883+00:00
+[2021-03-01 08:23:00,901] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/data_to_s3_dag.py                               1           0  0.69s           2021-03-01T07:22:50
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/my_first_dag.py                                 1           0  0.69s           2021-03-01T07:22:30
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/crawler_dag.py                                  1           0  0.96s           2021-03-01T07:22:48
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/bitcoin_price_dag.py                            1           0  1.02s           2021-03-01T07:22:57
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/subtask_dag.py                                  1           0  0.77s           2021-03-01T07:23:00
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/xcom_dag.py                                     1           0  0.72s           2021-03-01T07:22:59
+/Users/yuyatinnefeld/Desktop/projects/airflow/dags/ga_to_postgres_dag.py                           1           0  0.73s           2021-03-01T07:22:53
+================================================================================
+[2021-03-01 08:23:06,197] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:23:06,198] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:18:06.198085+00:00
+[2021-03-01 08:23:16,281] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-01 08:23:16,282] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-01 07:18:16.282227+00:00
+[2021-03-01 08:23:26,433] {dag_processing.py:571} INFO - Exiting gracefully upon receiving signal 15

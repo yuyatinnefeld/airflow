@@ -73,7 +73,8 @@ with DAG('bitcoin_price_dag', schedule_interval='@daily',
 
     storing_price = BashOperator(
         task_id='storing_price',
-        bash_command='echo -e ".separator ","\n.import /Users/yuyatinnefeld/Desktop/projects/airflow/data/processed_price.csv bitcoin" | sqlite3 /Users/yuyatinnefeld/Desktop/projects/airflow/airflow.db'
+        bash_command='echo -e ".separator ","\n.import /Users/yuyatinnefeld/Desktop/projects/airflow/data/processed_price.csv bitcoin" | sqlite3 /Users/yuyatinnefeld/Desktop/projects/airflow/airflow.db',
+        do_xcom_push=False
     )
 
     creating_table >> is_api_available >> extracting_price >> processing_price >> storing_price
